@@ -1,0 +1,14 @@
+{
+  "name": "bridge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Simon Pettersson <simon.v.pettersson@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "kubernetes-client": "^8.3.6",
+    "nats": "^1.4.8"
+  }
+}
